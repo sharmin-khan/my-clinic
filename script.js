@@ -37,3 +37,10 @@ setInterval(() => {
   if(index >= totalSlides) index = 0; // loop back to first slide
   slides.style.transform = `translateX(-${index * 100}%)`;
 }, 3000); // every 3 seconds
+
+
+
+ function subscribe(e) {
+    e.preventDefault();
+    alert("Thank you for subscribing!");
+  }
