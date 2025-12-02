@@ -136,55 +136,156 @@
       </div>
     </nav>
     <!-- NAVBAR END -->
-<!-- HERO SECTION START -->
-<section id="home" class="bg-secondary min-h-screen flex items-center pt-32 pb-10">
-  <div class="w-11/12 mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <!-- HERO SECTION START -->
+    <section
+      id="home"
+      class="bg-secondary min-h-screen flex items-center pt-32 pb-10"
+    >
+      <div
+        class="w-11/12 mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center"
+      >
+        <!-- Left Text Content -->
+        <div class="space-y-4 text-center md:text-left">
+          <h1 class="text-3xl md:text-7xl font-bold text-primary">
+            Redefine Your Natural Beauty
+          </h1>
 
-    <!-- Left Text Content -->
-    <div class="space-y-4 text-center md:text-left ">
-      <h1 class="text-3xl md:text-7xl font-bold text-primary ">
-        Redefine Your Natural Beauty
-      </h1>
+          <p class="text-gray-700 text-base md:text-lg">
+            Experience modern aesthetic treatments designed to enhance your
+            natural glow. Our clinic provides safe and advanced procedures for
+            your beauty and wellness.
+          </p>
 
-      <p class="text-gray-700 text-base md:text-lg">
-        Experience modern aesthetic treatments designed to enhance your natural glow.
-        Our clinic provides safe and advanced procedures for your beauty and wellness.
-      </p>
+          <!-- Contact Info -->
+          <div
+            class="flex flex-col sm:flex-row gap-3 justify-center md:justify-start"
+          >
+            <a
+              href="tel:+8801234567890"
+              class="flex items-center gap-2 bg-primary text-white px-5 py-2 rounded-full shadow hover:scale-105 transition"
+            >
+              <i class="fas fa-phone-alt"></i> +880 1234 567 890
+            </a>
 
-      <!-- Contact Info -->
-      <div class="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
-        <a href="tel:+8801234567890"
-          class="flex items-center gap-2 bg-primary text-white px-5 py-2 rounded-full shadow hover:scale-105 transition">
-          <i class="fas fa-phone-alt"></i> +880 1234 567 890
-        </a>
+            <a
+              href="mailto:info@clinic.com"
+              class="flex items-center gap-2 bg-primary text-white px-5 py-2 rounded-full shadow hover:scale-105 transition"
+            >
+              <i class="fas fa-envelope"></i> info@clinic.com
+            </a>
+          </div>
+        </div>
 
-        <a href="mailto:info@clinic.com"
-          class="flex items-center gap-2 bg-primary text-white px-5 py-2 rounded-full shadow hover:scale-105 transition">
-          <i class="fas fa-envelope"></i> info@clinic.com
-        </a>
+        <!-- Right Side Slider -->
+        <div
+          class="w-full max-w-[480px] md:max-w-full mx-auto rounded-2xl overflow-hidden shadow-lg"
+        >
+          <div
+            id="heroSlides"
+            class="flex transition-transform duration-500 h-[280px] sm:h-[340px] md:h-[400px]"
+          >
+            <img
+              src="image/doctor1.png"
+              class="w-full h-full object-cover flex-shrink-0"
+            />
+            <img
+              src="image/doctor2.png"
+              class="w-full h-full object-cover flex-shrink-0"
+            />
+            <img
+              src="image/doctor3.png"
+              class="w-full h-full object-cover flex-shrink-0"
+            />
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- HERO SECTION END -->
 
-    <!-- Right Side Slider -->
-    <div class="w-full max-w-[480px] md:max-w-full mx-auto rounded-2xl overflow-hidden shadow-lg">
-      <div id="heroSlides" class="flex transition-transform duration-500 h-[280px] sm:h-[340px] md:h-[400px]">
-        <img src="image/doctor1.png" class="w-full h-full object-cover flex-shrink-0" />
-        <img src="image/doctor2.png" class="w-full h-full object-cover flex-shrink-0" />
-        <img src="image/doctor3.png" class="w-full h-full object-cover flex-shrink-0" />
+    <!-- DOCTOR / WHY PATIENTS CHOOSE US SECTION -->
+    <section id="doctor" class="py-20 bg-white">
+      <div class="w-11/12 mx-auto px-4 grid lg:grid-cols-2 gap-10 items-start">
+        <!-- Left Image -->
+        <div
+          class="flex flex-col justify-start items-center md:items-start space-y-4"
+        >
+          <img
+            src="image/doctor3.png"
+            alt="Dr. Atifa"
+            class="rounded-3xl shadow-lg w-full object-cover"
+          />
+          <!-- Call Button Below Image -->
+          <a
+            href="tel:+8801234567890"
+            class="flex items-center gap-4 bg-primary text-white px-6 py-3 rounded-full hover:bg-pink-600 transition mt-4"
+          >
+            <!-- Icon -->
+            <i class="fas fa-phone-alt text-3xl"></i>
+
+            <!-- Text Content -->
+            <div class="flex flex-col leading-tight">
+              <span class="font-semibold text-lg">+880 1234 567 890</span>
+              <span class="text-sm"
+                >Call us direct 24/7 for emergency consultation</span
+              >
+            </div>
+          </a>
+        </div>
+
+        <!-- Right Content -->
+        <div class="flex flex-col justify-start items-start space-y-6">
+          <div>
+            <h2 class="text-xl font-medium text-primary pb-3">
+              About Dr. Atifa
+            </h2>
+            <h1 class="text-3xl md:text-5xl font-bold text-primary">
+              Why Patients Choose Me!
+            </h1>
+          </div>
+          <p class="text-gray-700 text-base md:text-lg">
+            With years of experience in aesthetic and cosmetic surgery, Dr.
+            Atifa has helped thousands of patients achieve their desired look.
+            Known for her professionalism and personalized care, she ensures
+            safety, comfort, and excellent results in every procedure.
+          </p>
+
+          <!-- Cards -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+            <!-- Card 1 -->
+            <div class="bg-secondary rounded-2xl p-6 shadow-lg text-center">
+              <h3 class="text-xl font-semibold text-primary mb-2">
+                15+ Years Experience
+              </h3>
+              <p class="text-gray-700 text-sm">
+                Extensive experience in modern cosmetic procedures and patient
+                care.
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-secondary rounded-2xl p-6 shadow-lg text-center">
+              <h3 class="text-xl font-semibold text-primary mb-2">
+                Happy Patients
+              </h3>
+              <p class="text-gray-700 text-sm">
+                1000+ of satisfied patients with excellent results and reviews.
+              </p>
+            </div>
+            <!-- Read More Button -->
+            <div class="mt-6 w-full flex justify-start">
+              <a
+                href="#about"
+                class="bg-primary text-white px-6 py-3 rounded-full hover:bg-pink-600 transition w-40 text-center text-lg font-semibold"
+              >
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-  </div>
-</section>
-<!-- HERO SECTION END -->
-
-
-
-
-
-<!-- HERO SECTION END -->
-
-
+    <!-- HERO SECTION END -->
   </body>
   <script src="script.js"></script>
 </html>
