@@ -25,3 +25,15 @@ mobileLinks.forEach(link => {
     document.getElementById("mobileMenu").classList.add("hidden");
   });
 });
+
+// Hero Image Slider
+
+  const slides = document.getElementById('heroSlides');
+let index = 0;
+const totalSlides = slides.children.length;
+
+setInterval(() => {
+  index++;
+  if(index >= totalSlides) index = 0; // loop back to first slide
+  slides.style.transform = `translateX(-${index * 100}%)`;
+}, 3000); // every 3 seconds
