@@ -31,32 +31,39 @@
   <body class="bg-secondary">
     <!-- NAVBAR START -->
     <nav class="bg-white/80 backdrop-blur-lg fixed w-full z-50 shadow-sm">
-      <div
-        class="w-11/12 mx-auto py-4 flex justify-between items-center"
-      >
+      <div class="w-11/12 mx-auto py-4 flex justify-between items-center">
         <!-- Logo -->
         <h1 class="text-3xl font-bold text-primary">BeautyClinic</h1>
 
         <!-- Desktop Menu -->
-        <ul class="hidden lg:flex gap-6 text-lg text-gray-700 font-medium">
+        <ul
+          class="hidden lg:flex gap-6 text-lg text-gray-700 font-medium"
+          id="desktopMenu"
+        >
           <li>
-            <a href="#home" class="hover:text-primary transition">HOME</a>
+            <a href="#home" class="nav-link hover:text-primary transition"
+              >HOME</a
+            >
           </li>
           <li>
-            <a href="#about" class="hover:text-primary transition">ABOUT</a>
+            <a href="#about" class="nav-link hover:text-primary transition"
+              >ABOUT</a
+            >
           </li>
           <li>
-            <a href="#services" class="hover:text-primary transition"
+            <a href="#services" class="nav-link hover:text-primary transition"
               >SERVICES</a
             >
           </li>
           <li>
-            <a href="#appoinment" class="hover:text-primary transition"
+            <a href="#appoinment" class="nav-link hover:text-primary transition"
               >APPOINMENT</a
             >
           </li>
           <li>
-            <a href="#contact" class="hover:text-primary transition">CONTACT</a>
+            <a href="#contact" class="nav-link hover:text-primary transition"
+              >CONTACT</a
+            >
           </li>
         </ul>
 
@@ -67,7 +74,8 @@
             <a
               href="https://facebook.com"
               target="_blank"
-              class="w-12 h-12 flex items-center justify-center text-white bg-primary rounded-full text-xl hover:bg-transparent hover:border-2 hover:border-primary hover:text-primary transition">
+              class="w-12 h-12 flex items-center justify-center text-white bg-primary rounded-full text-xl hover:bg-transparent hover:border-2 hover:border-primary hover:text-primary transition"
+            >
               <i class="fab fa-facebook-f"></i>
             </a>
 
@@ -75,7 +83,8 @@
             <a
               href="https://youtube.com"
               target="_blank"
-              class="w-12 h-12 flex items-center justify-center text-white bg-red-600 rounded-full text-xl hover:bg-transparent hover:border-2 hover:border-red-600 hover:text-red-600 transition">
+              class="w-12 h-12 flex items-center justify-center text-white bg-red-600 rounded-full text-xl hover:bg-transparent hover:border-2 hover:border-red-600 hover:text-red-600 transition"
+            >
               <i class="fab fa-youtube"></i>
             </a>
 
@@ -83,7 +92,8 @@
             <a
               href="https://instagram.com"
               target="_blank"
-              class="w-12 h-12 flex items-center justify-center text-white bg-gradient-to-r from-pink-500 to-yellow-400 rounded-full text-xl hover:bg-transparent hover:border-2 hover:border-pink-500 hover:text-pink-500 transition">
+              class="w-12 h-12 flex items-center justify-center text-white bg-gradient-to-r from-pink-500 to-yellow-400 rounded-full text-xl hover:bg-transparent hover:border-2 hover:border-pink-500 hover:text-pink-500 transition"
+            >
               <i class="fab fa-instagram"></i>
             </a>
           </div>
@@ -96,14 +106,33 @@
       <!-- Mobile Dropdown Menu -->
       <div
         id="mobileMenu"
-       
-         class="hidden flex flex-col px-4 pb-4 bg-white/90 backdrop-blur-lg rounded-b-md shadow-md mt-2"
+        class="hidden flex flex-col px-4 pb-4 bg-white/90 backdrop-blur-lg rounded-b-md shadow-md mt-2"
       >
-     <a href="#home" class="py-2 text-gray-700 font-medium hover:text-primary transition">HOME</a>
-    <a href="#about" class="py-2 text-gray-700 font-medium hover:text-primary transition">ABOUT</a>
-    <a href="#services" class="py-2 text-gray-700 font-medium hover:text-primary transition">SERVICES</a>
-    <a href="#appoinment" class="py-2 text-gray-700 font-medium hover:text-primary transition">APPOINMENT</a>
-    <a href="#contact" class="py-2 text-gray-700 font-medium hover:text-primary transition">CONTACT</a>
+        <a
+          href="#home"
+          class="mobile-nav-link py-2 text-gray-700 font-medium hover:text-primary transition"
+          >HOME</a
+        >
+        <a
+          href="#about"
+          class="mobile-nav-link py-2 text-gray-700 font-medium hover:text-primary transition"
+          >ABOUT</a
+        >
+        <a
+          href="#services"
+          class="mobile-nav-link py-2 text-gray-700 font-medium hover:text-primary transition"
+          >SERVICES</a
+        >
+        <a
+          href="#appoinment"
+          class="mobile-nav-link py-2 text-gray-700 font-medium hover:text-primary transition"
+          >APPOINMENT</a
+        >
+        <a
+          href="#contact"
+          class="mobile-nav-link py-2 text-gray-700 font-medium hover:text-primary transition"
+          >CONTACT</a
+        >
       </div>
     </nav>
     <!-- NAVBAR END -->
